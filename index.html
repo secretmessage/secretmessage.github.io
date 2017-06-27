@@ -10,7 +10,7 @@
     <form action="/index.html" method="post">
         <div>
             <label for="phoneNumber">Phone Number:</label>
-            <input type="tel" placeholder="5555555555" id="phoneNumber" autofocus="autofocus" >
+            <input type="tel" placeholder="5555555555" id="phoneNumber" autofocus="autofocus" pattern="^\d{10}$" required >
         </div>
         <div class="button">
             <button type="submit">Send your message</button>
